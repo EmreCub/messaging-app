@@ -1,0 +1,6 @@
+# include everything except...
+node_modules
+some/other/folder
+
+# but explicitly allow the build folder
+!build/

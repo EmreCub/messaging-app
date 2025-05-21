@@ -1,0 +1,24 @@
+Method,Name,Error,Occurrences
+GET,GET /api/friends/search,HTTPError('502 Server Error: Bad Gateway for url: GET /api/friends/search'),2
+GET,GET /api/groups/[id]/details,HTTPError('500 Server Error: Internal Server Error for url: GET /api/groups/[id]/details'),2
+POST,POST /api/users/register,HTTPError('403 Client Error: Forbidden for url: POST /api/users/register'),1
+GET,GET /api/groups/[id]/details,HTTPError('503 Server Error: Service Unavailable for url: GET /api/groups/[id]/details'),3
+POST,POST /api/friends/add,HTTPError('503 Server Error: Service Unavailable for url: POST /api/friends/add'),2
+POST,POST /api/users/login,HTTPError('404 Client Error: Not Found for url: POST /api/users/login'),21
+GET,GET /api/friends,HTTPError('503 Server Error: Service Unavailable for url: GET /api/friends'),1
+GET,GET /api/groups,HTTPError('500 Server Error: Internal Server Error for url: GET /api/groups'),56
+GET,GET /api/groups/[id]/members,HTTPError('503 Server Error: Service Unavailable for url: GET /api/groups/[id]/members'),3
+GET,GET /api/groups,HTTPError('403 Client Error: Forbidden for url: GET /api/groups'),1
+GET,GET /api/groups/[id]/members,HTTPError('502 Server Error: Bad Gateway for url: GET /api/groups/[id]/members'),1
+POST,POST /api/users/login,HTTPError('403 Client Error: Forbidden for url: POST /api/users/login'),1
+GET,GET /api/friends/search,HTTPError('403 Client Error: Forbidden for url: GET /api/friends/search'),1
+POST,POST /api/messages/send,HTTPError('503 Server Error: Service Unavailable for url: POST /api/messages/send'),3
+GET,GET /api/friends/search,HTTPError('503 Server Error: Service Unavailable for url: GET /api/friends/search'),4
+GET,GET /api/friends/all,HTTPError('503 Server Error: Service Unavailable for url: GET /api/friends/all'),1
+POST,POST /api/groups/create,HTTPError('503 Server Error: Service Unavailable for url: POST /api/groups/create'),2
+GET,GET /api/groups/[id]/messages,HTTPError('503 Server Error: Service Unavailable for url: GET /api/groups/[id]/messages'),1
+POST,POST /api/groups/create,HTTPError('403 Client Error: Forbidden for url: POST /api/groups/create'),2
+GET,GET /api/groups/[id]/details,HTTPError('404 Client Error: Not Found for url: GET /api/groups/[id]/details'),3
+GET,GET /api/groups/[id]/members,HTTPError('404 Client Error: Not Found for url: GET /api/groups/[id]/members'),3
+GET,GET /api/messages,HTTPError('503 Server Error: Service Unavailable for url: GET /api/messages'),3
+POST,POST /api/friends/add,HTTPError('502 Server Error: Bad Gateway for url: POST /api/friends/add'),2

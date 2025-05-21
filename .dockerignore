@@ -1,0 +1,15 @@
+# Ignore IDE/project files
+.idea
+.vscode
+*.iml
+
+# Ignore Gradle caches & wrappers
+.gradle
+gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# Don’t ignore the build output!
+!build/
+
+# (Optional) If you have any other folders you never want in your image, list them here.

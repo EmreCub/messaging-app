@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: messaging-backend-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: messaging-backend
+  template:
+    metadata:
+      labels:
+        app: messaging-backend
+    spec:
+      containers:
+        - name: messaging-backend
+          image: us-central1-docker.pkg.dev/cs436-termproject-group16/backend-repo/messaging-backend
+          ports:
+            - containerPort: 8080
